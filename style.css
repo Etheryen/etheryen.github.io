@@ -2,6 +2,10 @@
   font-family: 'Roboto', sans-serif;
 }
 
+body {
+  background-color: #121212;
+}
+
 #tekst {
     font-size: 35vw;
 }
