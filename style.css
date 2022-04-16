@@ -10,6 +10,7 @@
 
 :root {
   color: black;
+  user-select: none;
 }
 
 body {
