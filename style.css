@@ -1,0 +1,45 @@
+@font-face {
+  font-family: omoriCursed;
+  src: url(fonts/OMORI_GAME.ttf);
+}
+
+@font-face {
+  font-family: omoriNormal;
+  src: url(fonts/OMORI_GAME2.ttf);
+}
+
+:root {
+  color: black;
+}
+
+body {
+  background-color: #fcfefc;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#two {
+  display: none;
+}
+
+.text {
+  font-family: omoriNormal;
+  font-size: 5vw;
+}
+
+.something {
+  display: none;
+  height: 100vh;
+}
