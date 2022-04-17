@@ -27,7 +27,7 @@ const fontChange = () => {
   text.style.fontFamily = whatFont;
 }
 
-
+// mewo animation
 setInterval(() => {
   mewoNextFrame();
 }, 1200);
@@ -44,21 +44,10 @@ setInterval(() => {
 // }, 10);
 
 // hover version
-one.onmouseover = () => {
-  fontChange();
-}
-
-one.onmouseout = () => {
-  fontChange();
-}
-
-two.onmouseover = () => {
-  fontChange();
-}
-
-two.onmouseout = () => {
-  fontChange();
-}
+one.onmouseover = () => {fontChange();}
+one.onmouseout = () => {fontChange();}
+two.onmouseover = () => {fontChange();}
+two.onmouseout = () => {fontChange();}
 
 
 window.onmousedown = () => {

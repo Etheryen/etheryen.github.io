@@ -1,11 +1,11 @@
 @font-face {
   font-family: omoriCursed;
-  src: url(fonts/OMORI_GAME.ttf);
+  src: url('fonts/OMORI_GAME.ttf');
 }
 
 @font-face {
   font-family: omoriNormal;
-  src: url(fonts/OMORI_GAME2.ttf);
+  src: url('fonts/OMORI_GAME2.ttf');
 }
 
 :root {
@@ -44,4 +44,9 @@ body {
 .something {
   display: none;
   height: 100vh;
+  width: 100vw;
+  background-image: url('img/somethingGIF.webp');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 }
