@@ -11,6 +11,7 @@
 :root {
   color: black;
   user-select: none;
+  -moz-user-select: none;
 }
 
 body {
