@@ -72,3 +72,7 @@ window.onmouseup = () => {
   body.style.backgroundColor = '#fcfefc';
   welcome.style.display = 'flex';
 };
+
+window.oncontextmenu = (e) => {
+  e.preventDefault();
+}
