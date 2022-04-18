@@ -17,7 +17,7 @@
 body {
   background-color: #fcfefc;
   margin: 0;
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -27,6 +27,8 @@ body {
 
 .welcome {
   display: flex;
+  width: 100%;
+  height: 100vh;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -34,6 +36,11 @@ body {
 
 #two {
   display: none;
+}
+
+#one,
+#two {
+  width: 25%;
 }
 
 .text {
@@ -44,7 +51,7 @@ body {
 .something {
   display: none;
   height: 100vh;
-  width: 100vw;
+  width: 100%;
   background-image: url('img/somethingGIF.webp');
   background-repeat: no-repeat;
   background-position: center;
