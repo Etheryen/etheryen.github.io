@@ -14,11 +14,15 @@
   -moz-user-select: none;
 }
 
+html {
+  height: 100%;
+}
+
 body {
   background-color: #fcfefc;
   margin: 0;
   width: 100%;
-  height: 100vh;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -28,7 +32,7 @@ body {
 .welcome {
   display: flex;
   width: 100%;
-  height: 100vh;
+  height: 100%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -50,7 +54,7 @@ body {
 
 .something {
   display: none;
-  height: 100vh;
+  height: 100%;
   width: 100%;
   background-image: url('img/somethingGIF.webp');
   background-repeat: no-repeat;
