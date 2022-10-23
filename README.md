@@ -1,3 +1,2 @@
 # etheyren.github.io
-:)
-All rights go to OMOCAT.
+Just a fun little OMORI-themed webapp. All rights go to OMOCAT.
